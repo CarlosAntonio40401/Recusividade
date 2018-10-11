@@ -1,0 +1,9 @@
+O programa serve para calcular os espaços do tabuleiro onde é possível colocar as rainhas desejadas
+desde que elas não fiquem em perigo, ou seja, desde que uma não possa consumir a outra, para isso o
+sistema está organizado nos seguintes metodos: escreverSolucao(), atacada(int l, in c) e colocaRainha()
+Funções dos metodos:
+escreverSolucao() é usado para mostrar o a solução para o problema acima;
+atacada() é usado para identificar a rainha que está sendo atacada e onde está sendo atacada;
+colocaRainha() é usado para posicionar a rainha na posição sem riscos para ela.
+
+Os metodos acimas estão estruturados de forma lógica para que possam adotar o compatamento de recursividade; 
