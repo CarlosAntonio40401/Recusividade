@@ -3,15 +3,10 @@ package lista1;
 import java.util.Scanner;
 import static lista1.Questao9.naturaisCrescente;
 
-/**
- *
- * @author jesie
- */
+
 public class Questao_10 {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
 
         Scanner leitura = new Scanner(System.in);
