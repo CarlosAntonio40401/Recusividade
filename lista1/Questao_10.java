@@ -1,0 +1,38 @@
+package lista1;
+
+import java.util.Scanner;
+import static lista1.Questao9.naturaisCrescente;
+
+/**
+ *
+ * @author jesie
+ */
+public class Questao_10 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+        Scanner leitura = new Scanner(System.in);
+        System.out.printf("Digite um numero:");
+        int numero = leitura.nextInt();
+        naturaisCrescente(numero);
+
+    }
+
+    static int naturaisDecrescente(int n) {
+        if (n == -1) {
+            return 0;
+        }
+        System.out.printf("%d ", n);
+        return naturaisDecrescente(n - 1);
+    }
+
+    static int sequencia(int n) {
+        if (n < 0) {
+            return naturaisDecrescente(n * -1);
+        }
+        return naturaisDecrescente(n);
+    }
+}
